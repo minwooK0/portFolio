@@ -163,7 +163,7 @@ function btnTop() {
 
 $(document).ready(function(){
     // niceScroll
-    $("html").niceScroll();
+
 
     nav();
     skillsChart();
@@ -172,7 +172,7 @@ $(document).ready(function(){
     btnTop();
 
     new Typed('.typed', {
-        strings: ["유아체육교사 웹퍼블리셔 김민우입니다."],
+        strings: ["개발과 배움을 웹퍼블리셔 김민우입니다."],
         typeSpeed: 70,
         // backSpeed: 80,
         // loop: true,
@@ -217,7 +217,7 @@ $(window).on({
         bodyOn();         
         skillsChart();
         onScroll();
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 200) {
             $('.btnTop').stop().animate({ 'opacity': "1" }, { "duration": "50" });
         } else {
             $('.btnTop').stop().animate({ 'opacity': "0" }, { "duration": "50" });
