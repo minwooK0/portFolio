@@ -171,17 +171,8 @@ $(document).ready(function(){
     
     btnTop();
 
-    new Typed('.typed', {
-        strings: ["개발과 배움을 웹퍼블리셔 김민우입니다."],
-        typeSpeed: 70,
-        // backSpeed: 80,
-        // loop: true,
-        startDelay: 1350,
-        smartBackspace: true,
-        showCursor: false,
-        cursorChar: "|",
-    });
-    
+
+
     var toggle_nav = $('.nav_toggle');
     toggle_nav.on('click', function(e){
         e.preventDefault();
