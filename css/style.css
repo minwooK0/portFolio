@@ -116,8 +116,8 @@ header {position: fixed; width:100%;height: auto;z-index: 1; }
 .project-cont .project-box {display: flex; width:45%; padding:10px; border:2px solid gray; flex-direction: column;}
 .project-cont .project-box:hover {border-color:blue;transition: all 0.4s;}
 .project-box .img-box {width:auto;height:150px;}
-.project-box .imgBox1 {background:url('./img/moz.PNG)'no-repeat;background-size: cover;}
-.project-box .imgBox2 {background:url('./img/2.PNG)'no-repeat;background-size: cover}
+.project-box .imgBox1 {background:url('./img/moz.PNG')no-repeat;background-size: cover;}
+.project-box .imgBox2 {background:url('./img/2.PNG')no-repeat;background-size: cover}
 .project-box .imgBox3 {background:url('./img/3.PNG')no-repeat;background-size: cover}
 .project-box .imgBox4 {background:url('./img/4.PNG')no-repeat;background-size: cover}
 .project-box .imgBox5 {background:url('./img/5.PNG')no-repeat;background-size: cover}
