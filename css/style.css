@@ -156,8 +156,10 @@ header {position: fixed; width:100%;height: auto;z-index: 1; }
     #about .intro-cont {
         flex-wrap: wrap;
     }
-    #about .intro-cont div {display:flex;width:100%;text-align: center; justify-content: center;}
+    #about .intro-cont div {flex-direction: column; display:flex;width:100%;text-align: center; justify-content: center;}
     .project-cont .project-box {width:100%!important;}
+    .left-content li {justify-content: center;}
+    .right-box ul li {display: flex; justify-content: center;}
     }
 /* section common */
 section { padding:120px 0; box-sizing:border-box;}
@@ -410,6 +412,7 @@ footer .cnt_inner { position:relative; display:table-cell; vertical-align:middle
     /* portfolio */
     #portfolio .grid .list { width:33.33%; }
     #portfolio .grid .list .pf_cnt { height:24vw; }
+    .intro-cont.left-box {flex-direction: column;}
 
 }
 
